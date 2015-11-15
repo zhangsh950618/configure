@@ -1,0 +1,57 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/" . "zsh/")
+ ("/" . "home/")
+ ("/home/zsh/.emacs.d/el-get/" . "helm/")
+ ("/home/zsh/.emacs.d/" . "settings/")
+ ("/home/zsh/" . ".emacs.d/")
+ ("/home/zsh/项目/nuistoj/" . "nuistoj/")
+ ("/home/zsh/项目/" . "nuistoj/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/zsh/"
+ "/home/zsh/.emacs.d/settings/"
+ "/home/zsh/.emacs.d/el-get/helm/"
+ "/home/zsh/项目/nuistoj/nuistoj/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".emacs"
+ "general-settings.el"
+ "123.py"
+ "custom.el"
+ "COPYING"
+ "helm-config.el"
+ "settings.py"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/zsh/.emacs.d/settings/" (22088 499 837271 281000) "mumamo-settings.el" "scss-settings.el" "session.el" "./" "markdown-settings.el" "yasnippet-settings.el" "matlab-settings.el" "camelcase-settings.el" "yaml-settings.el" "custom-functions.el" "flx-ido.el" "latex-settings.el" "general-settings.el" "python-settings.el" "auto-complete-settings.el" "flx.el" "../" "el-get-settings.el" "helm-settings.el" "general-settings.el~" "custom.el" "js-settings.el")
+
+ ("/home/zsh/.emacs.d/" (22088 504 189271 459000) "ido.last" ".emacs.desktop" "./" "auto-save-list/" "el-get/" "settings/" "ac-comphist.dat" "recentf" "../" "tramp" "elpa/" ".session" "snippets/" "ido.last~")
+
+ ("/home/zsh/" (22088 343 569264 899000) "文档/" ".xsession-errors" ".dmrc" ".pip/" ".local/" ".gksu.lock" ".gstreamer-0.10/" ".gnupg/" ".gnome2/" ".xinputrc" ".emacs" "./" "公共的/" ".mozilla/" ".mysql_history" ".java/" "项目/" ".profile" ".zshrc~" ".swt/" ".zshrc" ".pki/" "桌面/" ".python_history" ".sunpinyin/" ".linuxmint/" ".zcompdump" ".mysql/" ".bash_logout" ".Xauthority" ".ssh/" ".zsh-update" ".emacs.d/" ".zcompdump-zsh-mint-5.0.2" ".face" "下载/" ".kingsoft/" ".PyCharm50/" ".dbus/" ".bash_history" "123.cpp" ".zsh/" ".cache/" ".nevernote/" ".zsh_history" ".gconf/" "坚果云/" ".config/" ".gnome/" "../" "123.py" "视频/" "projectile/" ".icons/" ".pydistutils.cfg" ".PyCharm40/" ".oh-my-zsh/" ".ICEauthority" "音乐/" "PycharmProjects/" ".nutstore/" ".deepinwine/" "图片/" "模板/" ".cinnamon/" ".themes/")
+
+ ("/home/zsh/.emacs.d/el-get/deferred/" (22086 51760 180336 91000) "test-deferred.elc" "concurrent.el" "concurrent-sample.el" "deferred-samples.elc" "./" ".git/" "concurrent.elc" "README-concurrent.ja.markdown" "README-concurrent.markdown" "deferred-samples.el" "test-concurrent.el" "deferred.elc" "Makefile" "deferred.el" "../" ".gitignore" "README.markdown" ".travis.yml" "concurrent-sample.elc" "README.ja.markdown" "test-concurrent.elc" "test-deferred.el")
+
+ ("/home/zsh/.emacs.d/el-get/helm/" (22087 9935 395482 269000) "helm-adaptive.elc" "helm-plugin.el" "helm-core-pkg.el" "helm-plugin.elc" "helm-source.el" "helm-locate.elc" "helm-eshell.elc" "helm-regexp.elc" "helm-mode.elc" "helm-semantic.el" "doc/" "helm-files.el" "helm-external.el" "helm-misc.elc" "helm-elisp.el" "helm-eshell.el" "helm-elisp-package.elc" "helm-info.el" "helm-org.el" "helm-easymenu.el" "helm-lib.el" "helm-bookmark.elc" "helm-multi-match.elc" "./" "helm-tags.elc" "helm-dabbrev.elc" "helm-semantic.elc" "helm-external.elc" ".git/" "helm-source.elc" "helm-info.elc" "helm-multi-match.el" "helm-elscreen.el" "helm-sys.elc" "helm-color.elc" "helm-org.elc" "helm-id-utils.el" "helm-apt.el" "helm-imenu.elc" "helm.elc" "emacs-helm.sh" "helm-man.el" "helm-buffers.el" "helm-misc.el" "helm-grep.el" "helm-aliases.elc" "helm-font.el" "COPYING" "helm.el" "Makefile" "helm-command.el" "helm-adaptive.el" "helm-pkg.el" "helm-lib.elc" "helm-types.elc" "helm-files.elc" "helm-aliases.el" "helm-locate.el" "helm-font.elc" "helm-ring.el" "helm-elisp-package.el" "helm-dabbrev.el" "helm-elscreen.elc" "helm-ring.elc" "helm-command.elc" "helm-apt.elc" "helm-tags.el" "helm-imenu.el" "helm-elisp.elc" "README.md" "helm-id-utils.elc" "helm-eval.elc" "helm-sys.el" "helm-help.el" "../" ".gitignore" "helm-net.el" "helm-config.el" "helm-help.elc" "helm-config.elc" "helm-bookmark.el" "helm-easymenu.elc" "helm-utils.el" "helm-net.elc" "helm-regexp.el" "helm-man.elc" "helm-eval.el" "helm-utils.elc" "helm-types.el" "helm-color.el" "helm-autoloads.el" "helm-buffers.elc" "helm-mode.el" "helm-grep.elc")
+
+ ("/home/zsh/.emacs.d/el-get/" (22087 11776 759426 473000) "request/" "magit/" "popup/" "epc/" "python-environment/" "./" "websocket/" "ctable/" ".loaddefs.el" "cl-lib/" "el-get/" "yasnippet/" "fuzzy/" "yaml-mode/" "nxhtml/" "emacs-async/" ".loaddefs.elc" "sr-speedbar.el" "color-theme-solarized/" "ein/" "../" "nyan-mode/" "helm/" "scss-mode/" "auto-complete/" "color-theme/" "jedi/" ".status.el" "dash/" "markdown-mode/" "deferred/")
+
+ ("/home/" (22083 2048 9517 453000) "./" "../" "zsh/")
+
+ ("/home/zsh/项目/nuistoj/nuistoj/" (22087 2362 53836 269000) "./" "settings.pyc" "urls.py" "urls.py~" "urls.pyc" "settings.py" "__init__.py" "wsgi.pyc" "__init__.pyc" "../" "wsgi.py" "settings.py~")
+
+ ("/home/zsh/项目/nuistoj/" (22085 52245 983120 866000) "nuistoj/" "exercise/" "./" "db.sqlite3" "manage.py" "../")
+
+ ("/home/zsh/项目/" (22085 51844 667104 476000) "nuistoj/" "./" "../")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

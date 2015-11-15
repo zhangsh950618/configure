@@ -1,0 +1,39 @@
+;;; Automatically generated on Sat Nov 14 21:48:28 2015
+;;; Invoked by zsh@zsh-mint using 24.5.1
+(setq-default kill-ring '("from django.http import HttpResponse
+" "(package-initialize)
+(elpy-enable)" "(ido-mode 1)
+" "(require 'flx-ido)
+(ido-mode 1)
+(ido-everywhere 1)
+(flx-ido-mode 1)
+;; disable ido faces to see flx highlights.
+(setq ido-enable-flex-matching t)
+(setq ido-use-faces nil)" "(require 'package)
+(add-to-list 'package-archives
+             '(\"elpy\" . \"https://jorgenschaefer.github.io/packages/\"))" "" "f" " (require 'desktop)
+  (desktop-save-mode 1)
+  (defun my-desktop-save ()
+    (interactive)
+    ;; Don't call desktop-save-in-desktop-dir, as it prints a message.
+    (if (eq (desktop-owner) (emacs-pid))
+        (desktop-save desktop-dirname)))
+  (add-hook 'auto-save-hook 'my-desktop-save)" "session-initialize)
+
+
+
+
+" "
+"))
+(setq-default session-file-alist '(("~/.emacs" 1195 1745 1 nil nil 1146 (overwrite-mode)) ("~/123.py" 1 1 1 nil nil 1 (overwrite-mode)) ("~/.emacs.d/elpa/elpy-1.10.0/elpy-autoloads.el" 1061 nil 1 nil nil 1061 (overwrite-mode)) ("~/.emacs.d/elpa/company-0.8.12/company-autoloads.el" 8676 nil 1 nil nil 8676 (overwrite-mode)) ("~/.emacs.d/elpa/find-file-in-project-3.3/find-file-in-project-autoloads.el" 1020 nil 1 nil nil 1020 (overwrite-mode)) ("~/.emacs.d/elpa/highlight-indentation-0.6.0/highlight-indentation-autoloads.el" 947 nil 1 nil nil 947 (overwrite-mode)) ("~/.emacs.d/elpa/pyvenv-1.9/pyvenv-autoloads.el" 1889 nil 1 nil nil 1889 (overwrite-mode)) ("~/.emacs.d/elpa/yasnippet-0.8.0/yasnippet-autoloads.el" 1589 nil 1 nil nil 1589 (overwrite-mode))))
+(setq-default file-name-history '("/home/zsh/.emacs" "/home/zsh/123.py" "~/.emacs.d/elpa/elpy-1.10.0/elpy-autoloads.el" "~/.emacs.d/elpa/company-0.8.12/company-autoloads.el" "~/.emacs.d/elpa/find-file-in-project-3.3/find-file-in-project-autoloads.el" "~/.emacs.d/elpa/highlight-indentation-0.6.0/highlight-indentation-autoloads.el" "~/.emacs.d/elpa/pyvenv-1.9/pyvenv-autoloads.el" "~/.emacs.d/elpa/yasnippet-0.8.0/yasnippet-autoloads.el" "~/123.cpp" "/home/zsh/.emacs.d/el-get/helm/COPYING"))
+(setq-default command-history '((find-file "/home/zsh/.emacs") (find-file "/home/zsh/123.py") (package-install (quote elpy)) (execute-extended-command nil "package-install") (package-refresh-contents) (execute-extended-command nil "package-refresh-contents") (python-shell-switch-to-shell) (execute-extended-command nil "python-shell-switch-to-shell") (run-python "/usr/bin/python -i" nil nil) (session-initialize) (execute-extended-command nil "session-initialize") (find-file "/home/zsh/.emacs.d/el-get/helm/COPYING")))
+(setq-default extended-command-history '("package-install" "package-refresh-contents" "python-shell-switch-to-shell" "session-initialize"))
+(setq-default helm-c-source-file-name-history '((name . "File Name History") (candidates . file-name-history) (action . helm-type-file-actions) (persistent-action . ignore) (filtered-candidate-transformer helm-file-name-history-transformer helm-fuzzy-highlight-matches) (match helm-mm-exact-match helm-mm-match) (header-line . "C-j: ignore (keeping session)") (dont-plug helm-compile-source--multi-match helm-compile-source--persistent-help helm-compile-source--migemo) (matchplugin)))
+(setq-default helm-ff-history '("/home/zsh/"))
+(setq-default helm-source-file-name-history '((name . "File Name History") (candidates . file-name-history) (action . helm-type-file-actions) (persistent-action . ignore) (filtered-candidate-transformer helm-file-name-history-transformer helm-fuzzy-highlight-matches) (match helm-mm-exact-match helm-mm-match) (header-line . "C-j: ignore (keeping session)") (dont-plug helm-compile-source--multi-match helm-compile-source--persistent-help helm-compile-source--migemo) (matchplugin)))
+(setq-default hi-lock-face-history '("hi-yellow" "hi-pink" "hi-green" "hi-blue" "hi-black-b" "hi-blue-b" "hi-red-b" "hi-green-b" "hi-black-hb"))
+(setq-default ido-file-history '(".emacs" "123.py" "COPYING"))
+(setq-default minibuffer-history '("elpy" "/usr/bin/python -i" "/home/zsh/" "123.py" "D" "/home/zsh/123."))
+(setq-default occur-collect-regexp-history '("\\1"))
+(setq-default yes-or-no-p-history '("yes"))

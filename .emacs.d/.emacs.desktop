@@ -1,0 +1,63 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sun Nov 15 12:09:24 2015
+;; Desktop file format version 206
+;; Emacs version 24.5.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (22088 1396 769584 696000) (desktop . "206") "zsh@zsh-mint" nil nil ((((font-backend xft x) (font . "-unknown-Ubuntu Mono-normal-normal-normal-*-17-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (foreground-color . "#839496") (background-color . "#002b35") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 9) (right-fringe . 9) (scroll-bar-foreground) (scroll-bar-background . "grey75") (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (fullscreen . fullboth) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "#657b83") (sticky) (environment) (frameset--id . "FE22-6F42-5D81-7658") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (maximized . maximized) (visibility . t) (height . 56) (width . 211) (left . 0) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 76) (min-pixel-width . 90) (min-pixel-height-ignore . 38) (min-pixel-width-ignore . 36) (min-pixel-height-safe . 19) (min-pixel-width-safe . 18)) leaf (pixel-width . 1920) (pixel-height . 1061) (total-width . 213) (total-height . 55) (normal-height . 1.0) (normal-width . 1.0) (buffer ".emacs" (selected . t) (hscroll . 0) (fringes 9 9 nil) (margins 3) (scroll-bars 0 0 nil nil) (vscroll . 0) (dedicated) (point . 40) (start . 1))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("/home/zsh/.emacs.d/settings/custom.el" "/home/zsh/.emacs" "/home/zsh/.emacs.d/settings/general-settings.el" "/home/zsh/.emacs" "/home/zsh/123.py" "/home/zsh/.emacs" "~/.emacs.d/elpa/elpy-1.10.0/elpy-autoloads.el" "~/.emacs.d/elpa/company-0.8.12/company-autoloads.el" "~/.emacs.d/elpa/find-file-in-project-3.3/find-file-in-project-autoloads.el" "~/.emacs.d/elpa/highlight-indentation-0.6.0/highlight-indentation-autoloads.el" "~/.emacs.d/elpa/pyvenv-1.9/pyvenv-autoloads.el" "~/.emacs.d/elpa/yasnippet-0.8.0/yasnippet-autoloads.el" "~/123.cpp" "/home/zsh/.emacs.d/el-get/helm/COPYING"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/zsh/.emacs"
+  ".emacs"
+  'emacs-lisp-mode
+  '(linum-mode hi-lock-mode yas-minor-mode auto-complete-mode helm-mode flx-ido-mode)
+  40
+  '(39 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/zsh/.emacs.d/settings/general-settings.el"
+  "general-settings.el"
+  'emacs-lisp-mode
+  '(linum-mode hi-lock-mode yas-minor-mode auto-complete-mode helm-mode flx-ido-mode)
+  3318
+  '(1441 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/zsh/.emacs.d/settings/custom.el"
+  "custom.el"
+  'emacs-lisp-mode
+  '(linum-mode hi-lock-mode yas-minor-mode auto-complete-mode helm-mode flx-ido-mode)
+  533
+  '(3271 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/zsh/123.cpp"
+  "123.cpp"
+  'c++-mode
+  '(abbrev-mode linum-mode hi-lock-mode yas-minor-mode auto-complete-mode helm-mode flx-ido-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
